@@ -1,5 +1,31 @@
+* Ejemplo de CSS externo (archivo styles.css) */
+
+/* Selector para todos los encabezados h1 */
+h1 {
+  color: #333; /* Color de texto gris oscuro */
+  font-family: Arial, sans-serif; /* Fuente principal Arial, si no está, usa una genérica */
+  text-align: center; /* Centrar el texto */
+}
+
+/* Selector para todos los párrafos */
 p {
-  color: red;
-  width: 500px;
-  border: 1px solid black;
+  color: #666; /* Color de texto gris medio */
+  font-size: 16px; /* Tamaño de fuente */
+  line-height: 1.5; /* Espaciado entre líneas */
+}
+
+/* Selector de clase para botones */
+.boton {
+  background-color: #007bff; /* Color de fondo azul */
+  color: white; /* Texto blanco */
+  padding: 10px 20px; /* Espaciado interno (arriba/abajo 10px, izquierda/derecha 20px) */
+  border: none; /* Sin borde */
+  border-radius: 5px; /* Bordes redondeados */
+  cursor: pointer; /* Cursor de mano al pasar por encima */
+  font-weight: bold;
+}
+
+/* Pseudo-clase para efecto hover en el botón */
+.boton:hover {
+  background-color: #0056b3; /* Azul más oscuro al pasar el cursor */
 }
